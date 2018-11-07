@@ -1,0 +1,128 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  background-color: #EBEBEB;
+  font-size: 15px;
+  line-height: 1.6em;
+  color: #7d7d7d;
+}
+
+h1, h2, h3 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 22px;
+  color: #369BAC;
+}
+
+h2 {
+  font-weight: 400;
+  font-size: 19px;
+  color: #23636E;
+}
+
+h3 {
+  font-weight: 300;
+  color: #7d7d7d;
+}
+
+a {
+  color: #369BAC;
+  text-decoration: none;
+}
+
+a:hover{
+  color: #23636E;
+}
+
+.container {
+  width: 600px;   /* This sets the width */
+  margin: 0 auto; /* This automatically sets left/right margins */
+}
+
+.card {
+  background-color: #FFFFFF;
+  border-radius: 05px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+ul {
+  padding: 30px;
+}
+
+table {
+  line-height: 1.6em;
+  text-align: start;
+  border-spacing: 2px;
+}
+
+.btn-blue {
+  background-color: #369BAC;
+  color: #ffffff;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.btn-blue:hover {
+  background-color: #23636E;
+  color: #ffffff;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+  font-size: 17px;
+}
+
+.img-circle {
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  box-shadow: 0px 0px 40px rgba(0, 0, 0, .2)
+}
+
+.text-center {
+  text-align: center;
+}
+
+.fab, .fas {
+  font-size: 35px;
+}
+
+#sewings {
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 1.6em;
+}
+
+#sewings td {
+  padding: 10px;
+}
+#sewings img {
+  width: 100px;
+}
