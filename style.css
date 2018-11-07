@@ -41,7 +41,7 @@ a:hover{
   position: relative;
   /*top: 0;*/
   margin: 0 auto;
-  max-width: 60%;
+  max-width: 50%;
   left: 65px;
   width: calc(100% - 120px);   /* This sets the width */
 }
