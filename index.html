@@ -10,8 +10,31 @@
 </head>
 
 <body>
-  <div class="container">
-    <div class="card text-center">
+  <div id="sidebar">
+    <div>
+      <ul>
+        <li>
+          <a href="#info"><i class="fas fa-info"></i>
+          </a>
+        </li>
+      </ul>
+      <ul>
+        <li>
+          <a href="#sewings"><i class="fas fa-cut"></i>
+          </a>
+        </li>
+      </ul>
+      <ul>
+        <li>
+          <a href="#footer"><i class="fas fa-fast-forward"></i>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="container" id="page-content">
+    <div class="card text-center" id="info">
       <img src="images/cd_profile_pic.jpg" alt="profil pic" id="img-profile" class="img-circle">
       <h1>Cécile Dezy</h1>
       <h2>Student @LeWagon</h2>
@@ -41,9 +64,9 @@
       </ul>
     </div>
 
-    <div class="card text-center">
+    <div class="card text-center" id="sewings">
       <h2>My 3 last sewings</h2>
-      <table id="sewings">
+      <table>
         <thead></thead>
         <tbody>
           <tr>
@@ -72,7 +95,7 @@
       </table>
     </div>
 
-    <div class="card text-center">
+    <div class="card text-center" id="footer">
       <h2>About this page</h2>
       <p>This page has been coded during the
         <a href="https://www.lewagon.com/fr" alt="Le Wagon Fullstack Program" target="_blank">FullStack program @LeWagon

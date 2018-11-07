@@ -38,8 +38,12 @@ a:hover{
 }
 
 .container {
-  width: 600px;   /* This sets the width */
-  margin: 0 auto; /* This automatically sets left/right margins */
+  position: relative;
+  /*top: 0;*/
+  margin: 0 auto;
+  max-width: 60%;
+  left: 65px;
+  width: calc(100% - 120px);   /* This sets the width */
 }
 
 .card {
@@ -112,6 +116,28 @@ table {
 
 .fab, .fas {
   font-size: 35px;
+}
+
+.fas.fa-info, .fas.fa-cut, .fas.fa-fast-forward {
+  font-size: 22px;
+  color: #EBEBEB;
+}
+
+#sidebar {
+  background-color: #369BAC;
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  bottom: 0px;
+  width: 120px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#sidebar ul {
+    list-style: none;
 }
 
 #sewings {
